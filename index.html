@@ -32,13 +32,17 @@
     <!-- navbar-->
     <header class="header">
       <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container"><a href="./" class="navbar-brand"><img src="img/lais-logo.png" alt="" class="img-fluid"></a>
+        <div class="container">
+          <a href="http://lais.huol.ufrn.br" class="navbar-brand">
+            <img src="img/lais-logo.png" alt="" class="img-fluid d-block d-sm-none" width="100">
+            <img src="img/lais-logo-lg.png" alt="" class="img-fluid d-none d-sm-block">
+          </a>
           <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right">Menu<i class="fa fa-bars ml-2"></i></button>
           <div id="navbarSupportedContent" class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
-                  <li class="nav-item"> <a href="#top" class="nav-link active">Início</a></li>
-                  <li class="nav-item"> <a href="#sobre" class="nav-link active">O HackLAIS</a></li>
-                  <li class="nav-item"> <a href="#premiacao" class="nav-link active">Premiações</a></li>
+                  <li class="nav-item"> <a href="#top" class="nav-link js-scroll-trigger">Início</a></li>
+                  <li class="nav-item"> <a href="#sobre" class="nav-link js-scroll-trigger">O HackLAIS</a></li>
+                  <li class="nav-item"> <a href="#premiacao" class="nav-link js-scroll-trigger">Premiações</a></li>
             </ul><a href="https://docs.google.com/forms/d/e/1FAIpQLSfMOqLGVs_3uw18n2DXuZV5bbYAYGU5LAy_cdB7440OzAGtyA/viewform?pli=1" class="btn btn-primary navbar-btn ml-0 ml-lg-3">Inscreva-se</a>
           </div>
         </div>
@@ -247,13 +251,13 @@
             <div class="row">
               <div class="col-lg-10">
                 <p class="lead text-muted mt-4 mb-4">Ciência humanitária a favor do Brasil<br> #SífilisNão</p>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfMOqLGVs_3uw18n2DXuZV5bbYAYGU5LAy_cdB7440OzAGtyA/viewform?pli=1" class="btn btn-primary navbar-btn ml- mr-5 0 d-none d-sm-block">Inscreva-se até 28 de Outubro</a>
               </div>
             </div>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfMOqLGVs_3uw18n2DXuZV5bbYAYGU5LAy_cdB7440OzAGtyA/viewform?pli=1" class="btn btn-primary navbar-btn ml-0">Inscreva-se até 28 de Outubro</a>
           </div>
           <div class="col-lg-6">
             <img src="img/logo-hacklais-data.png" alt="HackLAIS - Brasil Sem Sífilis" class="hero-image img-fluid">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfMOqLGVs_3uw18n2DXuZV5bbYAYGU5LAy_cdB7440OzAGtyA/viewform?pli=1" class="btn btn-primary navbar-btn mt-4 d-block d-sm-none">Inscreva-se até 28 de Outubro</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfMOqLGVs_3uw18n2DXuZV5bbYAYGU5LAy_cdB7440OzAGtyA/viewform?pli=1" class="btn btn-primary navbar-btn mt-4 d-block d-sm-none text-center" style="font-size: 0.6em;">Inscreva-se até 28 de Outubro</a>
           </div>
         </div>
       </div>
@@ -380,6 +384,8 @@
     <script src="vendor/popper.js/umd/popper.min.js"> </script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+    <script src="vendor/jquery/jquery.easing.min.js"> </script>
+    <script src="vendor/jquery/scrolling-nav.js"> </script>
     <script src="vendor/lightbox2/js/lightbox.js"></script>
     <script src="js/front.js"></script>
   </body>
