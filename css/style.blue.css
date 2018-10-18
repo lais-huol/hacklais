@@ -728,6 +728,7 @@ STYLE SWITCHER FOR DEMO
 .btn-primary:focus, .btn-primary.focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 105, 217, 0.5);
   box-shadow: 0 0 0 0.2rem rgba(0, 105, 217, 0.5);
+  color: #fff;
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
